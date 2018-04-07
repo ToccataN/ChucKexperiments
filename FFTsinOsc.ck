@@ -7,7 +7,7 @@
 // functionality of a "probe phasor" function to present 
 // interesting phase shifts. The overall timbre is similar to a bell.
 // The partial sequence output is off, but it produces interesting 
-//results nonetheless. 
+// results nonetheless. 
 
 
 public class FFTSinOsc {
@@ -44,6 +44,6 @@ public class FFTSinOsc {
 
 FFTSinOsc ff;
 
-ff.setOscNum(20, 250, .3);
+ff.setOscNum(10, 250, .3);
 
 10::second => now;
